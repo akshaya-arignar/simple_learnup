@@ -1,0 +1,30 @@
+[
+  {
+    "tamil": "அம்மா",
+    "english": "Mother",
+    "imageUrl": "/assets/images/amma.jpg",
+    "audioUrl": "/assets/audio/amma.mp3",
+    "relatedWords": ["அப்பா"],
+    "exampleSentences": [
+      {
+        "tamil": "அம்மா வீட்டில் இருக்கிறாள்",
+        "english": "Mother is at home",
+        "audioUrl": "/assets/audio/amma_sentence.mp3"
+      }
+    ]
+  },
+  {
+    "tamil": "அப்பா",
+    "english": "Father",
+    "imageUrl": "/assets/images/appa.jpg",
+    "audioUrl": "/assets/audio/appa.mp3",
+    "relatedWords": ["அம்மா"],
+    "exampleSentences": [
+      {
+        "tamil": "அப்பா வேலைக்கு சென்றார்",
+        "english": "Father went to work",
+        "audioUrl": "/assets/audio/appa_sentence.mp3"
+      }
+    ]
+  }
+]

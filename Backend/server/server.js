@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./config/db.js";
 import mongoose from "mongoose";
+import gradeRoutes from "./routes/gradeRoutes.js";
+import wordRoutes from "./routes/wordRoutes.js";
 
 dotenv.config();
 
@@ -13,6 +15,8 @@ app.use(cors());
 
 // basic root
 app.get("/", (req, res) => res.send("Kids Tamil Learning API running"));
+app.use("/api/grades", gradeRoutes);
+app.use("/api/words", wordRoutes);
 
 // simple DB status endpoint
 app.get("/api/dbstatus", (req, res) => {
